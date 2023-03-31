@@ -7,7 +7,7 @@ Stage 1 of creating a Portfolio to highlight strongest work for future use.
 
 ## Deployed Application
 
-[Deployed Application on Github](https://aripandini.github.io/module-1-challenge/)
+[Deployed Application on Github](https://aripandini.github.io/module-2-challenge/)
 
 ## Screenshot 
 
