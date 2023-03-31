@@ -1,25 +1,22 @@
-/* variables for easier control */
+/* Setting Variables */
 :root {
     --primary: #123e46;
     --secondary: white;
     --highlights: #348143;
 }
-
-/* remove default CSS styling */
+/* Removing Default Styling */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-
-/*body style */
+/* Body Styling */
 body {
     font-family: Montseratt, Open Sans, sans-serif;
     color: var(--primary);
     background-color: var(--secondary);
 }
-
-/* header style*/
+/* Header Elements, Attributes & Tags */
 header {
     background-color: var(--primary);
     display: flex;
@@ -27,37 +24,30 @@ header {
     flex-wrap: wrap;
     padding: 20px;
 }
-
 header .name {
     box-shadow: 3px 3px 5px rgba(0,0,0,0.5);
     background-color: var(--highlights);
     margin-left: -19.8px;
     padding: 10px;
 }
-
 header h1 {
     color: var(--secondary); 
-    font-size: 40px;
+    font-size: 45px;
     font-weight: lighter;
-    padding: 2px;
 }
-
 header a {
     text-decoration: none;
     color: var(--secondary);
 }
-
 header nav ul {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     list-style: none;
 }
-
 header nav {
     margin: 20px;
 }
-
 header nav ul li a {
     font-family: Montseratt, Open Sans, sans-serif;
     padding: 8px;
@@ -66,14 +56,12 @@ header nav ul li a {
     font-weight: bold;
     border-bottom: 3px solid var(--highlights);
 }
-
 header nav ul li a:hover {
     background: var(--highlights);
     color: var(--secondary);
     opacity: .8;
 }
-
-/* hero style */
+/* Hero Elements, Attributes & Tags */
 .hero {
     height: 300px;
     width: 100%;
@@ -83,14 +71,12 @@ header nav ul li a:hover {
     background-position: center;
     position: relative;
 }
-
 .hero img {
     width: auto;
     height: 400px;
     position: absolute;
     bottom: 0;
 }
-
 .hero .catch-phrase {
     background-color: var(--highlights);
     padding: 10px;
@@ -101,15 +87,12 @@ header nav ul li a:hover {
     margin-bottom: 10%;
     text-align: center;
 }
-
 .hero .catch-phrase h3 {
     font-size: 25px;
     font-style: italic;
     color: white;
-    
 }
-
-/* write a comment */
+/* Title Styling */
 .title {
     border-right: 3px solid var(--highlights);
     min-height: 100%;
@@ -118,38 +101,32 @@ header nav ul li a:hover {
     min-width: 20%;
     max-width: 20%;
 }
-
 .title h2 {
-    font-size: 48px;
+    font-size: 40px;
 }
-
-/* about me section*/
+/* About Me Section Styling */
 .about-me {
     display: flex;
     justify-content: space-between;
     align-items: stretch;
     padding-bottom: 10px;
 }
-
 .about-me p {
     font-size: 20px;
     padding: 0 30px;
     line-height: 1.6;
     width: 90%;
 }
-
-/* work section */
+/* Work Section Styling */
 .work {
     padding: 30px 0;
     display: flex;
     justify-content: space-between;
     background-color: var(--primary);
 }
-
 .work h2 {
     color: var(--secondary);
 }
-
 .project-grid {
     width: 70%;
     height: 600px;
@@ -159,7 +136,6 @@ header nav ul li a:hover {
     margin: 20px 50px;
     gap: 10px;
 }
-
 .project {
     box-shadow: 3px 3px 5px rgba(0,0,0,0.5);
     border: solid;
@@ -171,31 +147,25 @@ header nav ul li a:hover {
     background-size: cover;
     background-position: center;
 }
-
 .project:hover {
     opacity: .5;
 }
-
 .horiseon {
     flex: 1 0 100%;
     min-height: 200px;
     background-image: url("../images/horiseon.png");
 }
-
 .future-project {
     background-image: url("../images/coming-soon.jpg");
     background-position: 50% 10%;
     flex: 1 1 35%;
 }
-
-
 .project-title {
     background-color: var(--secondary);
     color: var(--primary);
     padding: 5px;
 }
-
-/* contact me section*/
+/* Contact Me Section Styling */
 footer {
     display: flex;
     justify-content: space-between;
@@ -203,33 +173,28 @@ footer {
     padding-top: 30px;
     margin-bottom: 30px;
 }
-
 .content-wrapper {
     width: 80%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-
 #contact-list {
     width: 60%;
 }
-
 footer ul {
     list-style: none;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
     align-content: center;
-    font-size: 30px;
+    font-size: 20px;
     font-weight: bolder;
 }
-
 footer ul li {
     padding-bottom: 15px;
     font-weight: bold;
 }
-
 footer ul li a {
     text-decoration: none;
     color: var(--primary);
@@ -237,13 +202,11 @@ footer ul li a {
     font-weight: bold;
     border-bottom: 3px solid var(--highlights);
 }
-
 footer ul li a:hover {
     background: var(--highlights);
     color: var(--secondary);
 }
-
-/* MEDIA QUERY FOR TABLET SCREENS AND SMALLER */
+/* Media Query for Responsiveness Larger Devices */
 @media screen and (max-width: 768px) {
     .hero .catch-phrase {
         font-size: 28px;
@@ -251,20 +214,25 @@ footer ul li a:hover {
     }
     
     .hero .catch-phrase #catch-phrase {
-        font-size: 35px;
+        font-size: 32px;
     }
-
     .title h2 {
-        font-size: 35px;
+        font-size: 28px;
     }
 
     .about-me p {
         font-size: 16px;
         line-height: 1.6;
     }
+    header h1 { 
+        font-size: 30px;
+    }
+    .hero .catch-phrase h3 {
+        font-size: 20px;
+    }
 }
 
-/* MEDIA QUERY FOR MOBILE PHONE SCREENS AND SMALLER */
+/* Media Query for Responsiveness Smaller Devices */
 @media screen and (max-width: 568px) {
     header {
         justify-content: center;
