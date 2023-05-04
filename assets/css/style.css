@@ -150,10 +150,10 @@ header nav ul li a:hover {
 .project:hover {
     opacity: .5;
 }
-.horiseon {
+.projectone {
     flex: 1 0 100%;
     min-height: 200px;
-    background-image: url("../images/horiseon.png");
+    background-image: url("../images/Bookipedia.png");
 }
 .future-project {
     background-image: url("../images/coming-soon.jpg");
