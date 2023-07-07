@@ -155,6 +155,14 @@ header nav ul li a:hover {
     min-height: 200px;
     background-image: url("../images/Bookipedia.png");
 }
+
+.projecttwo {
+    flex: 1 0 100%;
+    min-height: 200px;
+    background-image: url("../images/Borrowhood.png");
+}
+
+
 .future-project {
     background-image: url("../images/coming-soon.jpg");
     background-position: 50% 10%;
