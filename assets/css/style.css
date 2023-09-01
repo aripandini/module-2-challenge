@@ -123,6 +123,9 @@ header nav ul li a:hover {
     display: flex;
     justify-content: space-between;
     background-color: var(--primary);
+    overflow-x: hidden;
+    overflow-y: auto;
+
 }
 .work h2 {
     color: var(--secondary);
@@ -152,21 +155,22 @@ header nav ul li a:hover {
 }
 .projectone {
     flex: 1 0 100%;
-    min-height: 200px;
+    min-height: 400px;
     background-image: url("../images/Bookipedia.png");
 }
 
 .projecttwo {
     flex: 1 0 100%;
-    min-height: 200px;
+    min-height: 500px;
     background-image: url("../images/Borrowhood.png");
 }
 
 
-.future-project {
-    background-image: url("../images/coming-soon.jpg");
-    background-position: 50% 10%;
+.projectthree {
+    background-image: url("../images/eugeniehome.png");
+    min-height: 600px;
     flex: 1 1 35%;
+    background-position: 0 0;
 }
 .project-title {
     background-color: var(--secondary);
